@@ -9,8 +9,8 @@
     
 }
 section{
-    padding: 100px;
-    align-items: center;
+    width: 800px;
+    margin: 0 auto;
 }
 .name{
     position: relative; 
@@ -28,6 +28,12 @@ section{
     font-size: 1em; 
     color: black;
     line-height: 1.5em;
+}
+.name h3{
+    font-size: 24px;
+    color: black;
+    
+
 }
 header{
     position: fixed;
@@ -80,3 +86,10 @@ header ul li a{
     display: flex;
     justify-content: space-between;
 }
+hr.solid{
+    border-top: 3px solid rgb(190, 188, 188);
+
+}
+
+.education h4{
+    margin-top: 1.5em;
