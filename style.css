@@ -81,15 +81,109 @@ header ul li a{
     color:black;
 
 }
-.content{
 
+.content{
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
+
+.content h3{
+    font-size: 2em;
+}
 hr.solid{
-    border-top: 3px solid rgb(190, 188, 188);
+    border-top: 1px solid rgb(190, 188, 188);
+    width: 60%;
+    margin-left: auto; 
+    margin-right: auto;
+    
 
 }
 
 .education h4{
     margin-top: 1.5em;
+}
+
+.education h3{
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+.profile_pic .home-img .img-box img{
+    position: relative;
+    top: -250px;
+    margin-left: 450px;
+    max-width: 150px;
+    display: block;
+    border-radius: 50%;
+   
+
+}
+.achievements h3{
+    color:black;
+    margin-top: 1em;
+    font-size: 2em;
+
+}
+
+.achievements p{
+    
+    white-space: pre;
+    font-size: 1em; 
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+}
+
+.research h3{
+    color: black;
+    margin-top: 1em;
+    font-size: 2em;
+
+}
+
+.research p{
+    
+    white-space: pre;
+    font-size: 1em; 
+    line-height: 1.5em;
+    margin-top: 1.5em; 
+    margin-bottom: 2em;
+}
+
+.title1{
+    margin-top: 4em;
+    font-size: 24px;
+    color: black;
+
+}
+.title1 h4{
+    color:black;
+    margin-top: 1em;
+    
+}
+
+.title2{
+    margin-top: 4em;
+    font-size: 24px;
+    color: black;
+
+}
+.title2 h4{
+    color:black;
+    margin-top: 1em;
+    
+}
+.title3{
+    margin-top: 4em;
+    font-size: 24px;
+    color: black;
+
+}
+.title3 h4{
+    color:black;
+    margin-top: 1em;
+    
+}
+
