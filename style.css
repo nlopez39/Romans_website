@@ -187,3 +187,185 @@ hr.solid{
     
 }
 
+@media only screen and (min-width:375px){
+
+    section{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .name{
+        position: relative; 
+        min-height: 50vh; 
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    .name h1{
+        font-size: 3em; 
+        color: black;
+        line-height: 1.5em;
+    }
+    .name h2{
+        font-size: 1em; 
+        color: black;
+        line-height: 1.5em;
+    }
+    .name h3{
+        font-size: 24px;
+        color: black;
+        
+    
+    }
+    header{
+        position: fixed;
+        top: 0;
+        left: 0; 
+        width: 100%;
+        padding: 0px 100px; 
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    header .logo{
+        color:black;
+        font-size: 24px; 
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 700;
+        letter-spacing: 2px;
+    
+    }
+    
+    header ul{
+        position: relative;
+        display: flex;
+    }
+    
+    header ul li{
+        position: relative;
+        list-style: none;
+    }
+    header ul li a{
+        position: relative;
+        display: inline-block;
+        margin: 0 15px;
+        color: black;
+        text-decoration: none;
+    }
+    .heading{
+    
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        color:black;
+    
+    }
+    
+    .content{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content h3{
+        font-size: 2em;
+    }
+    hr.solid{
+        border-top: 1px solid rgb(190, 188, 188);
+        width: 60%;
+        margin-left: auto; 
+        margin-right: auto;
+        
+    
+    }
+    
+    .education h4{
+        margin-top: 1.5em;
+    }
+    
+    .education h3{
+        margin-top: 1em;
+        font-size: 2em;
+    }
+    
+    .profile_pic .home-img .img-box img{
+        position: relative;
+        top: -250px;
+        margin-left: 450px;
+        max-width: 150px;
+        display: block;
+        border-radius: 50%;
+       
+    
+    }
+    .achievements h3{
+        color:black;
+        margin-top: 1em;
+        font-size: 2em;
+    
+    }
+    
+    .achievements p{
+        
+        white-space: pre;
+        font-size: 1em; 
+        line-height: 1.5em;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    
+    }
+    
+    .research h3{
+        color: black;
+        margin-top: 1em;
+        font-size: 2em;
+    
+    }
+    
+    .research p{
+        
+        white-space: pre;
+        font-size: 1em; 
+        line-height: 1.5em;
+        margin-top: 1.5em; 
+        margin-bottom: 2em;
+    }
+    
+    .title1{
+        margin-top: 4em;
+        font-size: 24px;
+        color: black;
+    
+    }
+    .title1 h4{
+        color:black;
+        margin-top: 1em;
+        
+    }
+    
+    .title2{
+        margin-top: 4em;
+        font-size: 24px;
+        color: black;
+    
+    }
+    .title2 h4{
+        color:black;
+        margin-top: 1em;
+        
+    }
+    .title3{
+        margin-top: 4em;
+        font-size: 24px;
+        color: black;
+    
+    }
+    .title3 h4{
+        color:black;
+        margin-top: 1em;
+        
+    }
+
+}
